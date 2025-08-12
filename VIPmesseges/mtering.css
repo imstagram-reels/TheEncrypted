@@ -115,7 +115,9 @@ button {
     right: 20px;
     margin: 0;
     border: none;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px blueviolet;
+    background-color: rgb(137, 43, 226);
+    border-radius: 6px;
 }
 
 .input::placeholder {
@@ -137,8 +139,8 @@ button {
 @media only screen and (max-width: 600px) {
   html {
     /* background-color: rgb(105, 15, 15); */
-    background-image: linear-gradient(black,darkred, black);
-    color: dark;
+    background-image: linear-gradient(black,blueviolet, black);
+    color: blueviolet;
   }
   
 .spaces {
@@ -154,11 +156,13 @@ button {
 
 .result {
   background-color: white;
+  background-image: linear-gradient(white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,blueviolet);
   border-radius: 6px;
 }
 
 .Change-page {
-  background-color: #ffffff;
+  background-color: blueviolet;
+  /* background-image: linear-gradient(blueviolet,white); */
   border-radius: 6px 6px 0 0;
   top: 0px;
   left: 100%;
@@ -172,13 +176,12 @@ button {
 
 .titel {
   font-size: 22px;
-  color: red;
+  color: blueviolet;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 0px
 }
 
 .titel span {
-  color: rgb(184, 0, 0);
-      color-scheme: linear-gradient(black,darkred, black);
+  color: rgba(137, 43, 226, 0.822);
 
 }
 
