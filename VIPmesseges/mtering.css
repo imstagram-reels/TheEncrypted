@@ -1,7 +1,7 @@
 html {background-color: #f3f3f3;}
 
 .titel {
-    position: sticky;
+    position: relative;
     text-align: center;
     font-size: 30px;
     color: #333333;
@@ -9,6 +9,14 @@ html {background-color: #f3f3f3;}
     height: 5%;
     letter-spacing: 1px;
     word-spacing: 2px;
+    top: -15px;
+}
+
+.titel span {
+  font-size: 20px;
+  top: 5px;
+  position: relative;
+  color: rgb(80, 80, 80);
 }
 
 .Change-page {
@@ -123,32 +131,25 @@ button {
 }
 
 
+
+
+
 @media only screen and (max-width: 600px) {
   html {
-    background-color: rgb(105, 15, 15);
+    /* background-color: rgb(105, 15, 15); */
+    background-image: linear-gradient(black,darkred, black);
+    color: dark;
   }
-
+  
 .spaces {
   padding-top: 10px;
 }
-    
   .input,
 .result {
   max-height: 250px;
   border: solid 0.25px;
   border-color: black;
   border-radius: 6px 0px 6px 6px;
-  word-spacing: 1px;
-  letter-spacing: 1px;
-  
-}
-
-.input::placeholder {
-    position: absolute;
-    left: 15px;
-    top: 10px;
-    font-size: 15px;
-
 }
 
 .result {
@@ -171,10 +172,22 @@ button {
 
 .titel {
   font-size: 25px;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 0px
+}
 
-  
+.titel span {
+  color: rgb(184, 0, 0);
+      color-scheme: linear-gradient(black,darkred, black);
+
 }
 
 }
+
+
+
+/* 
+
+encrypt button change
+
+*/
