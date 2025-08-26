@@ -196,7 +196,7 @@ button {
   html {
     /* background-color: rgb(105, 15, 15); */
     /* background-image: linear-gradient(rgb(1, 0, 41),rgb(225 43 226), black); */
-    background-image: url("/assets/img/1001132832.png");
+    background-image: url("https://imstagram-reels.github.io/TheEncrypted/VIPmesseges/VIPmesseges/assets/img/1001132832.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -229,8 +229,8 @@ button {
 }
 
 button {
-  background-color: rgb(103, 17, 184);
-  box-shadow: 0px 0px 10px rgb(103, 17, 184);
+    background-color: rgba(148, 0, 211, 0.31);
+  box-shadow: 0px 0px 10px rgb(53, 0, 103);
   right: 10px;
   color: rgba(0, 0, 0, 0.733);
   font-size: 20px;
@@ -270,7 +270,7 @@ button {
 }
 
 .Change-page {
-  background-color: rgb(103, 17, 184);
+    background-color: rgba(127, 14, 175, 0.541);
   box-shadow: 0px 0px 10px rgb(103, 17, 184);
   /* background-image: linear-gradient(pink,white); */
   border-radius: 6px 6px 0 0;
@@ -282,6 +282,8 @@ button {
   border: solid 0.25px;
   border-bottom: none;
   border-color: black;
+  color: rgba(0, 0, 0, 0.733);
+
 }
 
 .Change-page a {
