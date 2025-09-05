@@ -86,9 +86,10 @@ html {background-color: #f3f3f3;}
 }
 
 .result-dv {
-position: relative;
+  position: relative;
+  width: calc(100%);
+  background-color: white;
 }
-
 .result-dv img {
   position: absolute;
   top: 10px;
@@ -176,6 +177,10 @@ button {
 .result {
   background-color: white;
   background-image: linear-gradient(white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,white,blueviolet);
+  border-radius: 6px;
+}
+
+.result-dv {
   border-radius: 6px;
 }
 
